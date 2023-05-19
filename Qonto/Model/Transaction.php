@@ -5,6 +5,13 @@ namespace neyric\Qonto\Model;
 class Transaction
 {
     /**
+     * ID of the transaction (e.g: 4f8cff58-800d-409f-b845-f7903dd9e357)
+     *
+     * @var string
+     */
+    public $id;
+
+    /**
      * ID of the transaction (e.g: acme-corp-1111-1-transaction-123)
      *
      * @var string
